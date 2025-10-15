@@ -126,7 +126,7 @@
                             <a href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
-                    <form action="submit_form.php" method="post" class="contact-form">
+                    <form action="https://formspree.io/f/mrbyrkdg" method="post" class="contact-form">
                         <div class="form-group">
                             <input type="text" name="ad" placeholder="Adınız Soyadınız" required>
                         </div>
@@ -153,7 +153,6 @@
     </footer>
 </body>
 </html>
-
 
 
 
