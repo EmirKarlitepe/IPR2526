@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emoriall.com</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts'tan modern bir yazı tipi ekleyelim -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome ikonları için CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <a href="#anasayfa" class="site-logo"><i class="fas fa-s"></i> Emoriall</a>
+                <ul>
+                    <li><a href="#anasayfa">ANA SAYFA</a></li>
+                    <li><a href="#hakkimizda">HAKKIMIZDA</a></li>
+                    <li><a href="#hizmetler">HİZMETLER</a></li> <!-- Yeni Hizmetler linki -->
+                    <li><a href="#iletisim">İLETİŞİM</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="anasayfa" class="hero-section">
+            <div class="container">
+                <h1>Hoş Geldiniz!</h1>
+                <p>Dijital dünyada fark yaratan çözümlerle buradayız.</p>
+                <a href="#hakkimizda" class="btn btn-hero">HAKKIMIZDA DAHA FAZLA BİLGİ EDİNİN</a>
+            </div>
+        </section>
+
+        <section id="hakkimizda" class="about-section">
+            <div class="container">
+                <h2>HAKKIMIZDA</h2>
+                <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque leo in nulla placerat, in interdum ante pulvinar. Etiam eu ante id justo efficitur ultrices.</p>
+                
+                <h3>DEĞERLERİMİZ</h3>
+                <div class="values-grid">
+                    <div class="value-item">
+                        <h4>MÜŞTERİ ODAKLILIK</h4>
+                        <p>Müşterilerimizin ihtiyaçlarını anlamak ve beklentilerini aşan çözümler sunmak önceliğimizdir.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>YENİLİKÇİLİK</h4>
+                        <p>Sürekli araştırma ve geliştirme ile sektördeki yenilikleri takip eder, çözümlerimize entegre ederiz.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>GÜVENİLİRLİK</h4>
+                        <p>Şeffaflık ve dürüstlük ilkeleriyle hareket ederek müşterilerimizle uzun vadeli ilişkiler kurarız.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>KALİTE</h4>
+                        <p>Sunduğumuz tüm hizmet ve ürünlerde yüksek kalite standartlarını hedefleriz.</p>
+                    </div>
+                </div>
+
+                <h3>EKİBİMİZ</h3>
+                <p class="section-description">Alanında uzman ve deneyimli ekibimizle, her projeye özel çözümler üretiyoruz.</p>
+                
+                <div class="team-members">
+                    <div class="member">
+                        <img src="icardi.jpg" alt="Ekip Üyesi 1">
+                        <h4>Mauro Icardı</h4>
+                        <p>Forvet</p>
+                    </div>
+                    <div class="member">
+                        <img src="indir.jpg" alt="Ekip Üyesi 2">
+                        <h4>Emir Karlıtepe</h4>
+                        <p>Bilgisayar Mühendisi</p>
+                    </div>
+                    <div class="member">
+                        <img src="osimhen.jpg" alt="Ekip Üyesi 3">
+                        <h4>victor osimhen</h4>
+                        <p>Forvet</p>
+                    </div>
+                    <!-- Daha fazla ekip üyesi eklenebilir -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Yeni Hizmetler Bölümü - Görseldeki Menüye Uygun -->
+        <section id="hizmetler" class="services-section">
+            <div class="container">
+                <h2>HİZMETLERİMİZ</h2>
+                <p class="section-description">Müşterilerimize sunduğumuz başlıca hizmetler:</p>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Geliştirme</h3>
+                        <p>Modern ve responsive web siteleri tasarlıyor ve geliştiriyoruz.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobil Uygulama</h3>
+                        <p>Yenilikçi mobil uygulamalarla işinizi mobil dünyaya taşıyoruz.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Dijital Pazarlama</h3>
+                        <p>Markanızın dijital görünürlüğünü artırmak için stratejiler geliştiriyoruz.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="iletisim" class="contact-section">
+            <div class="container">
+                <h2>İLETİŞİM</h2>
+                <p class="section-description">Sorularınız, projeleriniz veya işbirliği teklifleriniz için bize yazmaktan çekinmeyin.</p>
+                
+                <div class="contact-info-form-wrapper">
+                    <div class="contact-info">
+                        <h3>İLETİŞİM BİLGİLERİ</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Adres: Örnek Mah. Örnek Cad. No: 123, Örnek Şehir</p>
+                        <p><i class="fas fa-phone"></i> Telefon: +90 555 123 4567</p>
+                        <p><i class="fas fa-envelope"></i> E-posta: info@sitemizinadi.com</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <form action="submit_form.php" method="post" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="ad" placeholder="Adınız Soyadınız" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="E-posta Adresiniz" required> 
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="konu" placeholder="Konu" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="mesaj" placeholder="Mesajınız" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">MESAJI GÖNDER</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 emoriall.com. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+css
+
+
+
+
+
+
+/* Genel Stil Ayarları */
+:root {
+    --primary-color: #007bff; /* Mavi */
+    --secondary-color: #6c757d; /* Gri */
+    --dark-color: #343a40;
+    --light-color: #f8f9fa;
+    --white-color: #ffffff;
+    --text-color: #495057;
+    --heading-color: #212529;
+    --border-color: #dee2e6;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--light-color);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: #0056b3; /* Primary color slightly darker on hover */
+}
+
+.btn {
+    display: inline-block;
+    background: var(--primary-color);
+    color: var(--white-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.btn-hero {
+    font-size: 1.1rem;
+    padding: 12px 25px;
+}
+
+.section-description {
+    font-size: 1.15rem;
+    color: var(--secondary-color);
+    margin-bottom: 3rem;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header ve Navigasyon */
+header {
+    background: var(--dark-color);
+    color: var(--white-color);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Küçük ekranlarda alt alta gelmesi için */
+}
+
+.site-logo {
+    color: var(--white-color);
+    font-size: 1.8rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.site-logo i {
+    margin-right: 8px;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: var(--white-color);
+    font-weight: 400;
+    padding: 5px 0;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after,
+nav ul li a.active::after {
+    width: 100%;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: var(--primary-color);
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('background.jpg') no-repeat center center/cover;
+    color: var(--white-color);
+    text-align: center;
+    padding: 100px 0;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: var(--white-color);
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    max-width: 700px;
+    opacity: 0.9;
+}
+
+/* Section Başlıkları */
+section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+section:nth-of-type(odd) {
+    background-color: var(--white-color);
+}
+
+section:nth-of-type(even) {
+    background-color: var(--light-color);
+}
+
+section h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+section h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+}
+
+/* Hakkımızda Bölümü */
+.about-section h3 {
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.value-item {
+    background-color: var(--white-color);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    border-left: 5px solid var(--primary-color);
+}
+
+.value-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.value-item h4 {
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.value-item p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.member {
+    background-color: var(--white-color);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid var(--primary-color);
+    box-shadow: 0 0 0 5px rgba(0,123,255,0.2);
+}
+
+.member h4 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: var(--heading-color);
+}
+
+.member p {
+    color: var(--secondary-color);
+    font-style: italic;
+}
+
+/* Hizmetler Bölümü */
+.services-section {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 80px 0;
+}
+
+.services-section h2 {
+    color: var(--white-color);
+}
+
+.services-section h2::after {
+    background-color: var(--white-color);
+}
+
+.services-section .section-description {
+    color: var(--light-color);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.service-item {
+    background-color: rgba(255, 255, 255, 0.15); /* Slightly transparent white */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.service-item:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    transform: translateY(-5px);
+}
+
+.service-item i {
+    font-size: 3.5rem;
+    color: var(--white-color);
+    margin-bottom: 20px;
+    border: 2px solid var(--white-color);
+    border-radius: 50%;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.service-item h3 {
+    font-size: 1.8rem;
+    color: var(--white-color);
+    margin-bottom: 15px;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: var(--light-color);
+}
+
+
+/* İletişim Bölümü */
+.contact-section {
+    background-color: var(--light-color);
+}
+
+.contact-info-form-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.contact-info {
+    background-color: var(--white-color);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.contact-info h3 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+.contact-info p i {
+    color: var(--primary-color);
+    margin-right: 15px;
+    font-size: 1.3rem;
+    width: 25px; /* İkonların hizalanması için */
+}
+
+.social-links {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    font-size: 1.3rem;
+    margin: 0 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-3px);
+}
+
+.contact-form {
+    background-color: var(--white-color);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: calc(100% - 20px);
+    padding: 12px 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(0,123,255,0.25);
+    outline: none;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form button.btn-primary {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* Footer */
+footer {
+    background: var(--dark-color);
+    color: var(--light-color);
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.9rem;
+    border-top: 3px solid var(--primary-color);
+}
+
+/* Medya Sorguları (Responsive Tasarım İçin) */
+@media (max-width: 992px) {
+    .hero-section h1 {
+        font-size: 2.8rem;
+    }
+    .hero-section p {
+        font-size: 1.3rem;
+    }
+
+    .services-grid, .values-grid, .team-members {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .site-logo {
+        margin-bottom: 15px;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 15px;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    nav ul li a {
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    nav ul li:last-child a {
+        border-bottom: none;
+    }
+    nav ul li a::after {
+        display: none; /* Mobile'da alt çizgi efektini kapat */
+    }
+    nav ul li a:hover,
+    nav ul li a.active {
+        color: var(--primary-color);
+        background-color: rgba(255,255,255,0.1);
+        border-radius: 5px;
+    }
+
+    .hero-section {
+        padding: 80px 0 60px;
+    }
+    .hero-section h1 {
+        font-size: 2.2rem;
+    }
+    .hero-section p {
+        font-size: 1.1rem;
+    }
+    .btn-hero {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+    section h2 {
+        font-size: 2.2rem;
+    }
+    .section-description {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-info-form-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-logo {
+        font-size: 1.5rem;
+    }
+    .site-logo i {
+        font-size: 1.2rem;
+    }
+
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+    .hero-section p {
+        font-size: 0.95rem;
+    }
+    .btn-hero {
+        padding: 8px 18px;
+        font-size: 0.9rem;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    .value-item, .service-item, .member, .contact-info, .contact-form {
+        padding: 20px;
+    }
+    .value-item h4 {
+        font-size: 1.2rem;
+    }
+    .service-item i {
+        font-size: 2.8rem;
+        padding: 15px;
+    }
+    .service-item h3 {
+        font-size: 1.5rem;
+    }
+    .member img {
+        width: 120px;
+        height: 120px;
+    }
+    .member h4 {
+        font-size: 1.3rem;
+    }
+    .contact-info p {
+        font-size: 1rem;
+    }
+    .social-links a {
+        width: 40px;
+        height: 40px;
+        font-size: 1.1rem;
+        margin: 0 5px;
+    }
+    .contact-form input, .contact-form textarea, .contact-form button {
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+}
